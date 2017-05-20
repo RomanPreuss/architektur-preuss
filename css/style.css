@@ -1,0 +1,131 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #aaa;
+}
+
+@media only screen and (min-height: 800px), (min-width: 600px) {
+  .contact {
+    position: absolute;
+    bottom: 0
+  }
+}
+
+.demo-image {
+  position: absolute;
+  bottom:0;
+  background-color: red;
+}
+
+.navbar-fixed {
+margin-bottom: -64px;
+}
+
+.responsive-map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: -7px;
+}
+
+.responsive-map iframe {
+  margin-bottom: -5px;
+}
+
+.affix {
+  background-color: #f8f8f8;
+  opacity: 0.9;
+  transition: background .5s ease-in-out, opacity .5s ease;
+}
+
+.affix a {
+  color: #000;
+  transition: color .5s ease-in-out;
+}
+
+.landing {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image:url('../landing-background.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.transparent-navbar {
+  background-color: transparent !important;
+  opacity: 1.0;
+  transition: background .5s ease-in-out, opacity .5s ease;
+}
+
+.transparent-navbar a {
+  color: #ffffff;
+  transition: color .5s ease-in-out;
+}
+.side-nav {
+  background-color: #fff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.test {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.section-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .section-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
