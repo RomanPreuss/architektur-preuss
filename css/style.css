@@ -176,6 +176,26 @@ footer.page-footer {
   text-transform: uppercase;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .m-8 {
   margin: 2rem;
 }
@@ -183,6 +203,10 @@ footer.page-footer {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 
@@ -193,4 +217,12 @@ footer.page-footer {
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.leading-normal{
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
 }
