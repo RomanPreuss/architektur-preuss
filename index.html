@@ -13,10 +13,10 @@
   </head>
   <body>
 
-    <div id="overlay" class="overlay hidden">
-      <div class="container overlay-content red lighten-2 p-4">
+    <div id="christmas-overlay" class="christmas-overlay" style="display: none;">
+      <div class="container christmas-overlay-content red lighten-2 p-4">
         <div class="flex flex-row-reverse">
-          <a href="#" id="christmas-overlay" class="white-text size-6">
+          <a href="#" id="christmas-overlay-link" class="white-text size-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
           </a>
         </div>
@@ -339,9 +339,9 @@
       <script src="js/init.js"></script>
       <script src="js/cookie-banner.js"></script>
       <script>
-        document.getElementById('christmas-overlay').addEventListener('click', function(e) {
+        document.getElementById('christmas-overlay-link').addEventListener('click', function(e) {
           e.preventDefault();
-          document.getElementById('overlay').style.display = 'none';
+          document.getElementById('christmas-overlay').style.display = 'none';
         });
 
         // automatically hide christmas overlay
@@ -350,7 +350,7 @@
         const end = new Date('2025-01-07');
 
         if (today >= start && today <= end) {
-          document.getElementById('overlay').style.display = 'flex';
+          document.getElementById('christmas-overlay').style.display = 'flex';
         }
       </script>
 

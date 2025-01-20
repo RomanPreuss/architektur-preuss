@@ -132,7 +132,7 @@ footer.page-footer {
 }
 
 /* Christmas Overlay */
-.overlay {
+.christmas-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -144,7 +144,7 @@ footer.page-footer {
   justify-content: center;
   align-items: center;
 }
-.overlay-content {
+.christmas-overlay-content {
   text-align: center;
   width: 75vw;
 }
@@ -221,8 +221,4 @@ footer.page-footer {
 
 .leading-normal{
   line-height: 1.5;
-}
-
-.hidden {
-  display: none;
 }
